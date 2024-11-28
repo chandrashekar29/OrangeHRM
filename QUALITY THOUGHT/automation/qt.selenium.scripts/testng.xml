@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="addemployee">
+    <classes>
+      <class name="com.p.testng.AddEmployee"/>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="jobtitle">
+    <classes>
+      <class name="com.p.testng.JobTitle"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="usermanagement">
+    <classes>
+      <class name="com.p.testng.UserManagement"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.p.testng.ExGrouping"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
